@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ouath Success</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="oauth-container">
+        <h2>Login Successful</h2>
+        <p>Redirecting to dashboard</p>
+    </div>
+    <script>
+       const urlParams=new URLSearchParams(window.location.search);
+       const token=urlParams.get('token');
+       if(token){
+        sessionStorage.setItem('authToken',token);
+        window.location.href='dashboard.html'
+       }
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
