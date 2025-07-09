@@ -1,4 +1,4 @@
-const API_BASE_URL='http://localhost:8080';
+const API_BASE_URL='todo-backend-production-09f0.up.railway.app';
 const TOKEN_KEY='jwt_token';
 
 document.addEventListener('DOMContentLoaded', () => {
