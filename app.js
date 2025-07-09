@@ -1,4 +1,4 @@
-const API_BASE_URL='todo-backend-production-09f0.up.railway.app';
+const API_BASE_URL='https://todo-backend-production-09f0.up.railway.app';
 const TOKEN_KEY='jwt_token';
 
 document.addEventListener('DOMContentLoaded', () => {
